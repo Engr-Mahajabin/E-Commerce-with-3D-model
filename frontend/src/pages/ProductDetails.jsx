@@ -24,7 +24,7 @@ const ProductDetails = () => {
                     >
                         {show3D ? (
                             <model-viewer
-                                src={product.model}       // dynamic 3D model
+                                src={product.model}
                                 alt={product.title}
                                 auto-rotate
                                 camera-controls
