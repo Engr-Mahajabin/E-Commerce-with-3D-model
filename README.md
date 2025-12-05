@@ -14,27 +14,27 @@ All HTML sections were converted into React components while keeping the origina
 # 🚀 Features
 🛍️ Product Listing Page
 
-Grid view of all products
+1. Grid view of all products
 
-Prices, old prices, images
+2. Prices, old prices, images
 
-“View More” button → navigates to details page
+3. “View More” button → navigates to details page
 
 🔍 Product Details Page
 
-Shows product name, price, category, availability, description
+1. Shows product name, price, category, availability, description
 
-Quantity selector
+2. Quantity selector
 
-Add to Cart button
+3. Add to Cart button
 
-3D model viewer using <model-viewer> (Google Web Component)
+4. 3D model viewer using <model-viewer> (Google Web Component)
 
 🧭 Dynamic Routing
 
-/product/:id loads product info dynamically
+1. /product/:id loads product info dynamically
 
-Product.js contains all product data
+2. Product.js contains all product data
 
 🎥 3D Model Viewer
 
@@ -64,25 +64,29 @@ tech-essentials/
 | Technology                | Use                |
 | ------------------------- | ------------------ |
 | **React**                 | UI Framework       |
-| **Vite**                  | Fast Dev Server    |
 | **React Router DOM**      | Page Navigation    |
 | **Bootstrap / Karma CSS** | Styling            |
 | **model-viewer**          | 3D Model Rendering |
 
 # ▶️ How to Run the Project Locally
 1️⃣ Clone the repository
-git clone https://github.com/yourname/tech-essentials.git
+
+git clone https://github.com/Engr-Mahajabin/E-Commerce-with-3D-model
 
 2️⃣ Go into project folder
+
 cd frontend
 
 3️⃣ Install dependencies
+
 npm install
 
 4️⃣ Start local development server
+
 npm run dev
 
 ✔️ Your project will run at:
+
 http://localhost:5173/
 
 # 🔧 Required for 3D Model Viewer
